@@ -2,6 +2,7 @@ body {
   background-color: black;
 }
 
+/* Estilos da barra lateral */
 .sidebar {
   position: fixed;
   top: 0;
@@ -28,6 +29,7 @@ body {
   font-family: "DM Sants", sans-serif;
 }
 
+/* Estilos da seção de navegação */
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 12px;
@@ -42,9 +44,10 @@ body {
 }
 
 .sidebar__navigation .logo img {
-  width: 80px;
+  width: 100px;
 }
 
+/* Estilos da seção da biblioteca */
 .library {
   background-color: #121212;
   border-radius: 8px;
@@ -99,6 +102,7 @@ body {
   margin: 24px 10px;
 }
 
+/* Estilos da seção de playlists */
 .section-playlist {
   display: flex;
   align-items: flex-start;
@@ -150,6 +154,7 @@ body {
   width: 113px;
 }
 
+/* Estilos da seção de cookies */
 .sidebar .cookies {
   margin: 25px 20px;
 }
@@ -158,13 +163,14 @@ body {
   text-decoration: none;
   color: #b3b3b3;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .sidebar .cookies a:hover {
   text-decoration: underline;
 }
 
+/* Estilos da seção de idiomas */
 .sidebar .languages .languages__button {
   align-items: center;
   background-color: transparent;
@@ -176,4 +182,64 @@ body {
   margin: 8px;
   padding: 8px;
   border-radius: 20px;
+}
+
+/* Estilos do rodapé */
+.footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-image: linear-gradient(to right, #c756b8, #4279a6);
+}
+
+.footer .footer__text {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.footer .footer__text .text {
+  font-family: "DM Sants", sans-serif;
+  color: #fff;
+  margin: 15px 0px 0px 40px;
+}
+
+.footer .footer__text .title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer .footer__text .subtitle {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.footer .footer__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.footer .footer__button .button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "DM Sants", sans-serif;
+  width: 220px;
+  padding: 18px;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.footer .footer__button .button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
