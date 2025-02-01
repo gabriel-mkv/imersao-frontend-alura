@@ -1,0 +1,52 @@
+@media screen and (max-width: 1015px) {
+  /* Estilos da seção das setas */
+  .header__navigation .navigation .header__arrows {
+    margin-left: 5px;
+  }
+
+  .header__navigation .navigation .arrow-left {
+    margin-right: 1rem;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Estilos da seção da barra de pesquisa */
+  .header__search {
+    width: 290px;
+    height: 38px;
+    margin-right: 110px;
+  }
+
+  .header__search img {
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+  }
+
+  /* Estilos da seção de botões */
+  .header__login {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+  }
+
+  .header__login .subscribe {
+    font-size: 14px;
+    margin-right: 25px;
+  }
+
+  .header__login .login {
+    width: 90px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr;
+  }
+}

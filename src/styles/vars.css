@@ -1,12 +1,13 @@
 :root {
-    /* Fonte */
-    --font-dm-sans: "DM Sans", sans-serif;
+  /* Fonte */
+  --font-dm-sans: "DM Sans", sans-serif;
 
-    /* Cores */
-    --bg-icon: #b3b3b3;
-    --bg-primary-color: #000;
-    --bg-secundary-color: #121212;
-    --bg-tertiary-color: #242424;
-    --bg-icon-color: #131313;
-    --bg-arrow-color: rgba(0, 0, 0, 7);
+  /* Cores */
+  --bg-icon: #b3b3b3;
+  --font-button-color: #fff;
+  --bg-primary-color: #000;
+  --bg-secundary-color: #121212;
+  --bg-tertiary-color: #242424;
+  --bg-icon-color: #131313;
+  --bg-arrow-color: rgba(0, 0, 0, 7);
 }

@@ -123,7 +123,7 @@ body {
 
 .section-playlist__content .text {
   padding-bottom: 14px;
-  color: #fff;
+  color: var(--font-button-color);
 }
 
 .section-playlist__content .title {
@@ -140,7 +140,7 @@ body {
   justify-content: center;
   text-decoration: none;
   text-transform: none;
-  background-color: #fff;
+  background-color: var(--font-button-color);
   color: var(--bg-primary-color);
   border-radius: 20px;
   font-size: 12px;
@@ -172,7 +172,7 @@ body {
   align-items: center;
   background-color: transparent;
   border: 1px solid #878787;
-  color: #fff;
+  color: var(--font-button-color);
   font-weight: bold;
   cursor: pointer;
   width: 170px;
@@ -184,21 +184,19 @@ body {
 /* Estilos do rodapé */
 .footer {
   display: flex;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100px;
+  height: 110px;
   bottom: 0;
   background-image: linear-gradient(to right, #c756b8, #4279a6);
 }
 
 .footer .footer__text {
-  display: flex;
-  flex-direction: column;
   width: 75%;
 }
 
 .footer .footer__text .text {
-  color: #fff;
+  color: var(--font-button-color);
   margin: 15px 0px 0px 40px;
 }
 
@@ -223,7 +221,7 @@ body {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--font-button-color);
   color: var(--bg-primary-color);
   border-radius: 35px;
   font-size: 18px;
